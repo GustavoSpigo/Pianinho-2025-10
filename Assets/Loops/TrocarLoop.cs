@@ -9,7 +9,7 @@ public class TrocarLoop : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInParent<Animator>();
     }
     void Update()
     {
